@@ -1,0 +1,44 @@
+
+
+The original data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones was cleaned in the following ways.
+
+1) Test and Train data was merged into one dataset
+2) Activity numerics were turned into descriptive characters
+3) Only the measurements Mean and Standard Deviation were used
+4) Data was grouped by subjectID and activity and the average for each variable was given.
+
+subjectID - This is the identifier for each subject in the study
+activity - This is the identifier for each activity in the study
+
+The following variables are all averages of their original across subject and activity
+
+tBodyAccMeanX                    
+tBodyAccMeanY                     tBodyAccMeanZ                     tBodyAccSTDX                     
+tBodyAccSTDY                      tBodyAccSTDZ                      tGravityAccMeanX                 
+tGravityAccMeanY                  tGravityAccMeanZ                  tGravityAccSTDX                  
+tGravityAccSTDY                   tGravityAccSTDZ                   tBodyAccJerkMeanX                
+tBodyAccJerkMeanY                 tBodyAccJerkMeanZ                 tBodyAccJerkSTDX                 
+tBodyAccJerkSTDY                  tBodyAccJerkSTDZ                  tBodyGyroMeanX                   
+tBodyGyroMeanY                    tBodyGyroMeanZ                    tBodyGyroSTDX                    
+tBodyGyroSTDY                     tBodyGyroSTDZ                     tBodyGyroJerkMeanX               
+tBodyGyroJerkMeanY                tBodyGyroJerkMeanZ                tBodyGyroJerkSTDX                
+tBodyGyroJerkSTDY                 tBodyGyroJerkSTDZ                 tBodyAccMagMean                  
+tBodyAccMagSTD                    tGravityAccMagMean                tGravityAccMagSTD                
+tBodyAccJerkMagMean               tBodyAccJerkMagSTD                tBodyGyroMagMean                 
+tBodyGyroMagSTD                   tBodyGyroJerkMagMean              tBodyGyroJerkMagSTD              
+fBodyAccMeanX                     fBodyAccMeanY                     fBodyAccMeanZ                    
+fBodyAccSTDX                      fBodyAccSTDY                      fBodyAccSTDZ                     
+fBodyAccMeanFreqX                 fBodyAccMeanFreqY                 fBodyAccMeanFreqZ                
+fBodyAccJerkMeanX                 fBodyAccJerkMeanY                 fBodyAccJerkMeanZ                
+fBodyAccJerkSTDX                  fBodyAccJerkSTDY                  fBodyAccJerkSTDZ                 
+fBodyAccJerkMeanFreqX             fBodyAccJerkMeanFreqY             fBodyAccJerkMeanFreqZ            
+fBodyGyroMeanX                    fBodyGyroMeanY                    fBodyGyroMeanZ                   
+fBodyGyroSTDX                     fBodyGyroSTDY                     fBodyGyroSTDZ                    
+fBodyGyroMeanFreqX                fBodyGyroMeanFreqY                fBodyGyroMeanFreqZ               
+fBodyAccMagMean                   fBodyAccMagSTD                    fBodyAccMagMeanFreq              
+fBodyBodyAccJerkMagMean           fBodyBodyAccJerkMagSTD            fBodyBodyAccJerkMagMeanFreq      
+fBodyBodyGyroMagMean              fBodyBodyGyroMagSTD               fBodyBodyGyroMagMeanFreq         
+fBodyBodyGyroJerkMagMean          fBodyBodyGyroJerkMagSTD           fBodyBodyGyroJerkMagMeanFreq     
+angletBodyAccMeangravity          angletBodyAccJerkMeangravityMean  angletBodyGyroMeangravityMean    
+angletBodyGyroJerkMeangravityMean angleXgravityMean                 angleYgravityMean                
+angleZgravityMean                
